@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     overflow: hidden;
 }
@@ -18,8 +22,29 @@ footer {
     left: 0;
 }
 
+#quote {
+    text-align: center;
+}
+
 #greeting {
     font-size: 75px;
     text-align: center;
     margin-top: 10%;
+}
+
+#clock {
+    text-align: center;
+}
+
+#todo-form {
+    text-align: center;
+}
+
+#todo-form input {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    color:black;
+    width: 182px;
+    text-align: center;
 }
