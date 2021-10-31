@@ -8,5 +8,5 @@ const images = [
 ]
 
 const chosenImage = images[Math.floor(Math.random() * images.length)]
-const target = document.body
+const target = document.querySelector("#container")
 target.style.backgroundImage = `url(img/${chosenImage})`
