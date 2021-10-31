@@ -16,6 +16,9 @@ function onGeoOk(position) {
     })
 }
 
-function onGeoError() {alert("위치를 불러올 수 없음. 날씨가 비활성화됨")}
+function onGeoError() {
+    alert("Could not load location")
+    weather.classList.add("hidden")
+}
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError)
